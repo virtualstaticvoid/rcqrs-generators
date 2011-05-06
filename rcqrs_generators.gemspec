@@ -10,6 +10,8 @@ Gem::Specification.new do |s|
   s.email       = ["virtualstaticvoid@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{Rails 3 generators supporting the RCQRS Rails 3 plugin}
+  s.description = "See README for more information."
+  s.homepage    = "https://github.com/virtualstaticvoid/rcqrs-generators"
 
   s.rubyforge_project = "rcqrs_generators"
 
