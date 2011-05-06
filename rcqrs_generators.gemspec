@@ -8,12 +8,9 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Chris Stefano"]
   s.email       = ["virtualstaticvoid@gmail.com"]
-  s.homepage    = ""
   s.summary     = %q{Rails 3 generators supporting the RCQRS Rails 3 plugin}
-  s.description = "See README for more information."
+  s.description = "Rails 3 generators supporting the RCQRS Rails 3 plugin. Please see the README for more information."
   s.homepage    = "https://github.com/virtualstaticvoid/rcqrs-generators"
-
-  s.rubyforge_project = "rcqrs_generators"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
