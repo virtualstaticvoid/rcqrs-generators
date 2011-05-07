@@ -4,9 +4,9 @@ Additional Rails 3 generators for the RCQRS plugin
 
 # Installation
 
-Add the `rcqrs-generators` gem to the development group in your Gemfile, and run `bundle install`.
+Add the `rcqrs_generators` gem to the development group in your Gemfile, and run `bundle install`.
 
-    gem "rcqrs-generators", :group => :development
+    gem "rcqrs_generators", :group => :development
 
 # Generators
 
