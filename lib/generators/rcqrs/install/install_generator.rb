@@ -39,13 +39,12 @@ CODE
       def create_rcqrs_autoload_paths_initializer
         @snippet = <<CODE
 # include command, events, handlers and domain classes in the application auto load paths
-config = Application.config
-config.autoload_paths += %W(
-  #\{config.root\}/app/commands
-  #\{config.root\}/app/commands/handlers
-  #\{config.root\}/app/domain
-  #\{config.root\}/app/events
-  #\{config.root\}/app/events/handlers
+ActiveSupport::Dependencies.autoload_paths += %W(
+  #\{Rails.root.to_s\}/app/commands
+  #\{Rails.root.to_s\}/app/commands/handlers
+  #\{Rails.root.to_s\}/app/domain
+  #\{Rails.root.to_s\}/app/events
+  #\{Rails.root.to_s\}/app/events/handlers
 )
 CODE
 
