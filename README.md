@@ -1,5 +1,7 @@
 # RCQRS Generators
 
+[![Gem Version](https://badge.fury.io/rb/rcqrs_generators.png)](http://badge.fury.io/rb/rcqrs_generators)
+
 Additional Rails 3 generators for the RCQRS plugin
 
 # Installation
